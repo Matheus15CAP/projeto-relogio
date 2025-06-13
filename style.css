@@ -65,6 +65,10 @@ body {
     border-bottom: 4px solid var(--verde);
 }
 
+.abas-textos {
+    background-color: var(--cor-de-fundo);
+}
+
 @media screen and (mid-width:768px) {
  .botoes {
     display: flex;
