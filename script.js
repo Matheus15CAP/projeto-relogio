@@ -1,4 +1,5 @@
 const botoes = document.querySelectorAll(".botoes");
+const textos = document.querySelectorAll(".abas-conteudo");
 console.log(botoes)
 for(let i=0; i< botoes.length; i++){
     botoes[i].onclick = function(){
@@ -7,5 +8,6 @@ for(let i=0; i< botoes.length; i++){
             botoes[j].remove.add("ativo");
         }
         botoes[i].classList.add("ativo");
+        textos[i].classList.add("ativo")
     }
 }
