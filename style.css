@@ -80,6 +80,10 @@ border-bottom: 4px solid var(--verde);
     display: block;
 }
 
+.abas-conteudo{
+    display: none;
+}
+
 @media screen and (mid-width:768px) {
  .botoes {
     display: flex;
