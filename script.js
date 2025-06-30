@@ -17,6 +17,12 @@ for(let i=0; i< botoes.length; i++){
     }
 }
 
-contadores [0].textContent = "Contagem Regressiva";
+function calculadoraTempo(tempoObjetivo1) {
+    let tempoAtual = new Date();
+    let tempoFinal = tempoObjetivo1-tempoAtual;
+    let segundos = Math.floor (tempoFinal/1000);
+    return segundos
+}
 
-contadores [0].textContent = tempoObjetivo1 - tempoAtual;
+contadores [0].textContent = "Contagem Regressiva";
+contadores [0].textContent = calculadoraTempo (tempoObjetivo1);
